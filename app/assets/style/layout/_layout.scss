@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.answer{
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: bold;
+  h2{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  h3{
+    font-size: 14px;
+    color:#6C757D;
+  }
+}
+.list:hover{
+  border-left: 4px solid #198754;
+  color: #198754 !important;
+}
